@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2></h2>
+        
+
+        <script>
+            var text = 'Strawberries are a popular part of spring and summer diets throughout America. Mouths water from coast to coast each spring, when small white blossoms start to appear on strawberry bushes. They announce the impending arrival of the ruby red berries that so many people crave. Ripe strawberries taste sweet and have only a slight hint of tartness. They are also one of the healthiest fruits around. There are countless recipes for the luscious red berry, but many people prefer to eat them fresh and unaccompanied.';
+            var text1 = text.replace(/Strawberries/g, "bananas");
+            document.write(text1);
+        
+         </script>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Arrays</h2>
+
+        <button onclick="emptyArr"></button>
+
+        <script>
+            
+}
+            var arr = ['liverpool', 'manchester united', 'manchester city', 'tottenham'];
+            document.write('arr: ' + arr);
+            
+            for(var i = 0; i < arr.length; i++) {
+            document.write((i + 1) + ': ' + arr[i]);
+
+            function emptyArr(arr) {
+    
+            while(arr.length) {
+                arr.pop();
+            }
+
+            arr = ['BMW', 'Tesla', 'Volvo', 'Tayota'];
+            
+
+            return ['BMW', 'Tesla', 'Volvo', 'Tayota'];
+        }
+         </script>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>function - task.1</h2>
+
+        <script>
+            function Phone() {
+                this.make = "Samsung"
+            }
+            Phone.prototype.model = function() {
+                document.write("My phone name is "+ this.make + " and it is good");
+            }
+            var galaxy = new Phone();
+            galaxy.model(); 
+        </script>
+    </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2></h2>
+
+        <script>
+           var d = new Date();
+           document.write(d);
+        </script>
+    </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Arrays</h2>
+
+        <script>
+            var numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
+            onsole.log(numbers[4]);
+            numbers.pop();
+         </script>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Arrays</h2>
+
+        <script>
+            var numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
+            numbers.pop();
+            document.write(numbers);
+         </script>
+    </body>
+</html>
